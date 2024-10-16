@@ -29,3 +29,5 @@ longNames.splice(0,3)
 console.log(longNames)
 
 // 3. Rimuovi 'Ed' dall'array teachers
+teachers.splice(teachers.indexOf('Ed'), 1)
+console.log(teachers)
