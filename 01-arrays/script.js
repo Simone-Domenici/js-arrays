@@ -14,8 +14,8 @@ const fourthTeacher = teachers.at(3);
 console.log(fourthTeacher)
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-teachers[5] = 'Patrick'
-console.log(teachers[5])
+// teachers[5] = 'Patrick'
+// console.log(teachers[5])
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = teachers.pop();
@@ -40,7 +40,8 @@ console.log(isFabioPresent)
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+const lewisIndex = teachers.indexOf('Lewis');
+console.log(lewisIndex)
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
